@@ -58,7 +58,7 @@ export default {
          return;
       }
 
-      if (temp.value < 21 || description.value.includes('cloud')) {
+      if (temp.value < 21 || description.value.includes('cloud') || description.value.includes('rain')) {
         mainDivObject.value.rainy = true;
       } else if (temp.value > 21 && temp.value < 30) {
         mainDivObject.value.general = true;
