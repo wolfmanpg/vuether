@@ -1,5 +1,9 @@
 # vuethery
 
+Weather App. Search a city and the weather of the current day will be displayed.
+
+Site link : https://vuethery.netlify.app/
+
 ## Project setup
 ```
 npm install
